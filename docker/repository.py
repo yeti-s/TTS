@@ -1,7 +1,7 @@
 #@title Clone Github Repository
 import os
 
-file_path = f"/content/Retrieval-based-Voice-Conversion-WebUI/infer-web.py"
+file_path = "/workspace/Retrieval-based-Voice-Conversion-WebUI/infer-web.py"
 temp_file_path = "/tmp/temp_file.py"
 changes_made = False
 with open(file_path, "r") as file, open(temp_file_path, "w") as temp_file:
